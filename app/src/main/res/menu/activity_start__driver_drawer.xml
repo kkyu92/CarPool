@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/request_list"
+            android:icon="@drawable/list"
+            android:title="요청목록" />
+        <item
+            android:id="@+id/my_load"
+            android:icon="@drawable/draw_line"
+            android:title="경로등록" />
+        <item
+            android:id="@+id/drive_list"
+            android:icon="@drawable/ride_list"
+            android:title="운행내역" />
+    </group>
+
+    <item android:title="나의 평점">
+        <menu>
+            <item
+                android:id="@+id/my_point"
+                android:icon="@drawable/star_full_primary"
+                android:title="평점" />
+
+        </menu>
+    </item>
+
+</menu>

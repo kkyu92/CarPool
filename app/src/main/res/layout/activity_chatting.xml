@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--tools:context=".Chatting">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/chat_target"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="팀노바님과의 대화"-->
+        <!--android:textSize="32sp"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/back_btn"-->
+        <!--android:layout_width="35dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:layout_marginStart="4dp"-->
+        <!--android:layout_marginTop="4dp"-->
+        <!--android:background="@drawable/back"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/chat_target"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/chat_target"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/chat_target"-->
+        <!--app:layout_constraintVertical_bias="0.0" />-->
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/colorPrimaryDark"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent" />-->
+
+    <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <!--android:id="@+id/chat_profile"-->
+        <!--android:layout_width="48dp"-->
+        <!--android:layout_height="48dp"-->
+        <!--android:layout_marginBottom="1dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:layout_marginTop="1dp"-->
+        <!--android:background="@drawable/kakao_default_profile_image"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/imageView3"-->
+        <!--app:layout_constraintStart_toStartOf="@+id/imageView3"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/imageView3" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/chat_etxt"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginEnd="8dp"-->
+        <!--android:layout_marginStart="8dp"-->
+        <!--android:background="@drawable/edit_text"-->
+        <!--android:ems="10"-->
+        <!--android:hint="ㅇ노리ㅐㅑ도햦ㄷ해ㅑㅜㄷㅈ해ㅑㅈ대햐ㅗ짛먀ㅓㄷ쟈해ㅓㅁ고해ㅑㅁㄷ후개ㅑㄷㄱ무ㅐㅑㅓ매ㅑㅎ머;댜ㅓㅀ"-->
+        <!--android:inputType="textMultiLine"-->
+        <!--android:maxHeight="140dp"-->
+        <!--android:padding="8dp"-->
+        <!--android:scrollbars="vertical"-->
+        <!--android:textSize="20sp"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/imageView3"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/imageView3"-->
+        <!--app:layout_constraintStart_toEndOf="@+id/chat_profile"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/imageView3" />-->
+
+    <!--<ImageButton-->
+        <!--android:id="@+id/send_btn"-->
+        <!--android:layout_width="38dp"-->
+        <!--android:layout_height="38dp"-->
+        <!--android:layout_marginBottom="1dp"-->
+        <!--android:layout_marginEnd="1dp"-->
+        <!--android:layout_marginTop="1dp"-->
+        <!--android:background="@drawable/color_button_circle"-->
+        <!--android:src="@drawable/up"-->
+        <!--app:layout_constraintBottom_toBottomOf="@+id/chat_etxt"-->
+        <!--app:layout_constraintEnd_toEndOf="@+id/chat_etxt"-->
+        <!--app:layout_constraintTop_toTopOf="@+id/chat_etxt"-->
+        <!--app:layout_constraintVertical_bias="0.0" />-->
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/chat_rv"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_marginTop="8dp"-->
+        <!--app:layout_constraintBottom_toTopOf="@+id/imageView3"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintHorizontal_bias="0.0"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toBottomOf="@+id/chat_target">-->
+
+    <!--</android.support.v7.widget.RecyclerView>-->
+
+<!--</android.support.constraint.ConstraintLayout>-->
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chatting">
+
+    <ImageView
+        android:id="@+id/chat_back_btn"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="@+id/chat_target"
+        app:layout_constraintStart_toStartOf="@+id/chat_target"
+        app:layout_constraintTop_toTopOf="@+id/chat_target" />
+
+    <TextView
+        android:id="@+id/chat_target"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="상대 닉네임"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:weightSum="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="1.0">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_myProfile"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:src="@drawable/kakao_default_profile_image"
+            app:civ_border_color="#ffffff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/chat_Etext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_weight="9"
+            android:background="@drawable/edit_text"
+            android:ems="10"
+            android:hint=""
+            android:inputType="textMultiLine"
+            android:maxHeight="140dp"
+            android:padding="8dp"
+            android:paddingEnd="44dp"
+            android:scrollbars="vertical"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/chat_myProfile"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/chat_send_btn"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="3dp"
+            android:layout_marginEnd="3dp"
+            android:background="@drawable/color_button_circle"
+            android:src="@drawable/up"
+            app:layout_constraintBottom_toBottomOf="@+id/chat_Etext"
+            app:layout_constraintEnd_toEndOf="@+id/chat_Etext" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="200dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_rv"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chat_target"
+        app:layout_constraintVertical_bias="1.0">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+</android.support.constraint.ConstraintLayout>
