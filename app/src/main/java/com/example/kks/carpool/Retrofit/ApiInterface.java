@@ -4,7 +4,7 @@ import android.media.Image;
 
 import com.example.kks.carpool.AutoSearch.TMapSearchInfo;
 import com.example.kks.carpool.AutoSearch.TmapRoute;
-import com.example.kks.carpool.DriverClass.requestParse;
+import com.example.kks.carpool.DriverClass.RequestParse;
 import com.example.kks.carpool.model.MyRoute;
 import com.example.kks.carpool.model.RequestCar;
 import com.example.kks.carpool.model.ShowRating;
@@ -48,12 +48,12 @@ public interface ApiInterface {
     // 카풀요청 리스트 디폴트값
     @FormUrlEncoded
     @POST("requestDriver.php")
-    Call<ArrayList<requestParse>> performRequestDriver(@Field("type") int type, @Field("date") String date, @Field("time") String time);
+    Call<ArrayList<RequestParse>> performRequestDriver(@Field("type") int type, @Field("date") String date, @Field("time") String time);
 
     // 카풀요청 리스트 필터적용
     @FormUrlEncoded
     @POST("requestDriverFilter.php")
-    Call<ArrayList<requestParse>> performRequestDriverFilter(@Field("type") int type, @Field("sDate") String sDate, @Field("eDate") String eDate, @Field("setTime") String time,
+    Call<ArrayList<RequestParse>> performRequestDriverFilter(@Field("type") int type, @Field("sDate") String sDate, @Field("eDate") String eDate, @Field("setTime") String time,
                                                              @Field("people") int people, @Field("sDistance") int sDistance, @Field("eDistance") int eDistance);
 
     // 나의 경로 등록
