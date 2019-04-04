@@ -18,9 +18,8 @@ import com.bumptech.glide.request.RequestOptions;
 import com.example.kks.carpool.R;
 
 import java.util.ArrayList;
-import java.util.Map;
 
-import static com.example.kks.carpool.Result.USER_NAME;
+import static com.example.kks.carpool.LoginSignup.Result.USER_NAME;
 
 public class ChattingAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 

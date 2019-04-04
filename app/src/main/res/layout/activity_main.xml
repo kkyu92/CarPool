@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.kks.carpool.MainActivity">
+    tools:context="com.example.kks.carpool.RiderClass.RiderSearchPlace">
 
     <EditText
         android:id="@+id/start_text"

@@ -11,12 +11,14 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.kks.carpool.LoginSignup.Login;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-import static com.example.kks.carpool.Result.USER_NAME;
-import static com.example.kks.carpool.Result.USER_PROFILE;
+import static com.example.kks.carpool.LoginSignup.Result.USER_NAME;
+import static com.example.kks.carpool.LoginSignup.Result.USER_PROFILE;
 
 public class Rating extends AppCompatActivity {
 

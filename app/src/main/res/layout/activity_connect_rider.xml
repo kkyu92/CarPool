@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="10"
-    tools:context=".driver.ConnectRider">
+    tools:context=".DriverClass.ConnectRider">
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"

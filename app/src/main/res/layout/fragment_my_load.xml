@@ -24,7 +24,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            tools:context=".driver.FragmentMyLoad" />
+            tools:context=".DriverClass.FragmentMyLoad" />
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"

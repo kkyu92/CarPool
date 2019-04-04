@@ -6,7 +6,7 @@
     android:background="@drawable/edit_text"
     android:layout_width="300dp"
     android:layout_height="500dp"
-    tools:context=".driver.DriveRoutePopUp">
+    tools:context=".DriverClass.DriveRoutePopUp">
 
 
     <TextView

@@ -7,7 +7,7 @@
     android:background="@color/colorPrimaryDark"
     android:orientation="vertical"
     android:weightSum="10"
-    tools:context=".driver.RequestClick">
+    tools:context=".DriverClass.RequestClick">
 
     <LinearLayout
         android:layout_width="match_parent"

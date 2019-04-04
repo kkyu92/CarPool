@@ -6,42 +6,30 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.net.Uri;
-import android.os.Handler;
 import android.os.IBinder;
-import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.util.Log;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.RequestManager;
-import com.bumptech.glide.request.RequestOptions;
-import com.example.kks.carpool.appRTC.PopUpVideoCall;
-import com.example.kks.carpool.driver.RequestClick;
-import com.example.kks.carpool.driver.myrouteAdapter;
+import com.example.kks.carpool.AppRTC.PopUpVideoCall;
+import com.example.kks.carpool.RiderClass.RiderWaitingDriver;
 import com.example.kks.carpool.model.ChattingAdapter;
 import com.example.kks.carpool.model.ChattingMessageItem;
-import com.example.kks.carpool.service.ExampleService;
-import com.example.kks.carpool.service.RealService;
-import com.example.kks.carpool.service.RunHelper;
+import com.example.kks.carpool.Service.RealService;
+import com.example.kks.carpool.Service.RunHelper;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -49,15 +37,13 @@ import java.lang.reflect.Type;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
 
 import de.hdodenhof.circleimageview.CircleImageView;
 
-import static com.example.kks.carpool.Result.USER_NAME;
-import static com.example.kks.carpool.Result.USER_PROFILE;
-import static com.example.kks.carpool.service.ExampleService.socket;
+import static com.example.kks.carpool.LoginSignup.Result.USER_NAME;
+import static com.example.kks.carpool.LoginSignup.Result.USER_PROFILE;
 
 public class Chatting extends AppCompatActivity {
 
@@ -82,22 +68,13 @@ public class Chatting extends AppCompatActivity {
     // getIntent
     public static int REQUEST_NUM;
     public static String TARGET_ID, TARGET_PROFILE;
-//    private String TARGET_PROFILE;
-
-    //    public static Socket socket;
-    // 5사무실
-    public static final String IP = "192.168.0.139";
-    // 집
-//    public static final String IP = "192.168.200.154";
-    // 3사무실
-//    public static final String IP = "192.168.0.81";
 
     // 받은 메시지
     private String[] msgFilter;
 
     // 서비스 부분
     Intent serviceIntent;
-    int a = 1;
+    int check = 1;
     RealService ms; // 서비스 객체
     boolean isService = false; // 서비스 중인 확인용
 
@@ -159,7 +136,7 @@ public class Chatting extends AppCompatActivity {
             Log.e("Chatting", "체팅방에서 방번호 받는 부분 : " + roomNum);
             if (!roomNum.equals("상대방이 거절 하였습니다.")) {
                 unbindService(conn);
-                a = 2;
+                check = 2;
                 Intent intent = new Intent(Chatting.this, PopUpVideoCall.class);
                 intent.putExtra("tartget_id", TARGET_ID);
                 intent.putExtra("tartget_profile", TARGET_PROFILE);
@@ -351,8 +328,8 @@ public class Chatting extends AppCompatActivity {
         if (RealService.serviceIntent == null) {
             serviceIntent = new Intent(Chatting.this, RealService.class);
             startService(serviceIntent);
-            Log.e("int a = ", "::::" + a);
-            if (a == 1) {
+            Log.e("int a = ", "::::" + check);
+            if (check == 1) {
                 bindService(serviceIntent, conn, Context.BIND_AUTO_CREATE);
             }
         } else {
@@ -366,7 +343,7 @@ public class Chatting extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
 
-        if (a == 2) {
+        if (check == 2) {
             bindService(serviceIntent, conn, Context.BIND_AUTO_CREATE);
         }
         // 뒤로가기
@@ -376,7 +353,7 @@ public class Chatting extends AppCompatActivity {
                 // 채팅저장 + 종료
                 if (FLAG.equals("noti")) { // 노티 클릭으로 들어옴
                     // 운전자 탑승자 구분 어떻게 하지??
-                    Intent intent = new Intent(Chatting.this, WaitingDriver.class);
+                    Intent intent = new Intent(Chatting.this, RiderWaitingDriver.class);
                     intent.putExtra("user_name", USER_NAME);
                     startActivity(intent);
                     finish();

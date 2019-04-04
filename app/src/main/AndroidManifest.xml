@@ -29,7 +29,7 @@
     <uses-permission android:name="android.permission.DIAL_PHONE" />
 
     <application
-        android:name=".kakao.GlobalApplication"
+        android:name=".Kakao.GlobalApplication"
         android:allowBackup="true"
         android:icon="@drawable/carpool"
         android:label="@string/app_name"
@@ -40,7 +40,7 @@
             android:name="com.facebook.sdk.ApplicationId"
             android:value="@string/facebook_app_id" />
 
-        <activity android:name=".Empty">
+        <activity android:name=".LoginSignup.Empty">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -63,7 +63,7 @@
                 <data android:scheme="@string/facebook_login_protocol_scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".Login">
+        <activity android:name=".LoginSignup.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -79,10 +79,10 @@
             android:name="com.kakao.sdk.AppKey"
             android:value="@string/kakao_app_key" />
 
-        <activity android:name=".Signup" />
-        <activity android:name=".Result" />
-        <activity android:name=".TmapStart" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".LoginSignup.Signup" />
+        <activity android:name=".LoginSignup.Result" />
+        <activity android:name=".RiderClass.TmapStart" />
+        <activity android:name=".RiderClass.RiderSearchPlace" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -96,23 +96,23 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".google_map"
+            android:name=".RiderClass.RiderStartMap"
             android:label="@string/title_activity_google_map" />
-        <activity android:name=".google_picker" />
+        <activity android:name=".RiderClass.RiderPickPlace" />
         <activity
-            android:name=".driver.start_Driver"
+            android:name=".DriverClass.start_Driver"
             android:label="@string/title_activity_start__driver"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".driver.SettingPopUp"
+            android:name=".DriverClass.SettingPopUp"
             android:theme="@android:style/Theme.Dialog" />
         <activity
-            android:name=".driver.DriveRoutePopUp"
+            android:name=".DriverClass.DriveRoutePopUp"
             android:theme="@android:style/Theme.Dialog" />
         <activity
-            android:name=".driver.MyRouteListPopUp"
+            android:name=".DriverClass.MyRouteListPopUp"
             android:theme="@android:style/Theme.Dialog" />
-        <activity android:name=".driver.RequestClick" />
+        <activity android:name=".DriverClass.RequestClick" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -124,8 +124,8 @@
                 android:resource="@xml/provider_paths" />
         </provider>
 
-        <activity android:name=".driver.ConnectRider" />
-        <activity android:name=".WaitingDriver" />
+        <activity android:name=".DriverClass.ConnectRider" />
+        <activity android:name=".RiderClass.RiderWaitingDriver" />
         <activity
             android:name=".PopUpRequestInfo"
             android:theme="@android:style/Theme.Dialog" />
@@ -145,18 +145,18 @@
         <!-- android:exported="true"/> -->
 
         <service
-            android:name=".service.RealService"
+            android:name=".Service.RealService"
             android:enabled="true"
             android:exported="true"
             android:stopWithTask="false" />
         <service
-            android:name=".service.RestartService"
+            android:name=".Service.RestartService"
             android:enabled="true"
             android:exported="true" />
 
-        <receiver android:name=".service.AlarmReceiver" />
+        <receiver android:name=".Service.AlarmReceiver" />
         <receiver
-            android:name=".service.RebootReceiver"
+            android:name=".Service.RebootReceiver"
             android:enabled="true"
             android:exported="false"
             android:process=":remote">
@@ -166,7 +166,7 @@
         </receiver>
         <!-- 영상통화-->
         <activity
-            android:name=".appRTC.ConnectActivity"
+            android:name=".AppRTC.ConnectActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustPan">
 
@@ -190,21 +190,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".appRTC.SettingsActivity"
+            android:name=".AppRTC.SettingsActivity"
             android:label="@string/settings_name" />
         <activity
-            android:name=".appRTC.CallActivity"
+            android:name=".AppRTC.CallActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/app_name"
             android:screenOrientation="fullUser"
             android:theme="@style/CallActivityTheme" />
         <activity
-            android:name=".appRTC.PopUpVideoCall"
+            android:name=".AppRTC.PopUpVideoCall"
             android:theme="@android:style/Theme.Dialog" />
         <activity android:name=".Rating" />
         <activity android:name=".KakaoPayment" />
-        <activity android:name=".RiderCarpoolList" />
-        <activity android:name=".RiderMyPoint" />
+        <activity android:name=".RiderClass.RiderCarpoolUsageHistory" />
+        <activity android:name=".RiderClass.RiderMyPoint" />
     </application>
 
 </manifest>

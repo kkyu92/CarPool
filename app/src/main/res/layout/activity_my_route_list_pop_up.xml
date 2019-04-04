@@ -6,7 +6,7 @@
     android:layout_width="300dp"
     android:layout_height="550dp"
     android:background="@drawable/edit_text"
-    tools:context=".driver.MyRouteListPopUp">
+    tools:context=".DriverClass.MyRouteListPopUp">
 
     <TextView
         android:id="@+id/textView"
