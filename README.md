@@ -45,26 +45,25 @@
 
  소셜로그인          |  
 :-------------------------:|
-![Smartphones]<iframe src = "https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/requestmini.gif" width="352" height="792" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>  |
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>  |
 
 카풀요청 (탑승자)          |  카풀목록 (운전자)
 :-------------------------:|:-------------------------: 
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif)  |  ![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif)
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>  |  <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>
 
- 채팅          |  
+ 채팅          	|  
 :-------------------------:|
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/requestmini.gif)  |
+![Smartphones]  |
 
  영상통화          |  
 :-------------------------:|
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/requestmini.gif){: width="352" height="792"}{: .center}  |
+![Smartphones]  |
 
  운행기록 및 평점          |  
-:-------------------------:|
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/requestmini.gif)  |
+:-------------------------:|:-------------------------:|
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>  |	1. 운행기록2.
 
 
-<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>
 
 ## 오픈소스
 
