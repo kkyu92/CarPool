@@ -45,7 +45,7 @@
 
  소셜로그인          |  
 :-------------------------:|
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/requestmini.gif)  |
+![Smartphones]<iframe src = "https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/requestmini.gif" width="352" height="792" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>  |
 
 카풀요청 (탑승자)          |  카풀목록 (운전자)
 :-------------------------:|:-------------------------: 
@@ -57,7 +57,7 @@
 
  영상통화          |  
 :-------------------------:|
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/requestmini.gif)  |
+![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/requestmini.gif){: width="352" height="792"}{: .center}  |
 
  운행기록 및 평점          |  
 :-------------------------:|
