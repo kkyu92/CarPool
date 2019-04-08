@@ -64,7 +64,7 @@
 ![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/requestmini.gif)  |
 
 
-<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="350"></img>
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>
 
 ## 오픈소스
 
