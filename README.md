@@ -45,7 +45,7 @@
 
  소셜로그인          |  
 :-------------------------:|
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/stream.gif)  |
+![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif)  |
 
 카풀요청 (탑승자)          |  카풀목록 (운전자)
 :-------------------------:|:-------------------------: 
@@ -53,15 +53,15 @@
 
  채팅          |  
 :-------------------------:|
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/stream.gif)  |
+![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif)  |
 
  영상통화          |  
 :-------------------------:|
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/stream.gif)  |
+![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif)  |
 
  운행기록 및 평점          |  
 :-------------------------:|
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/stream.gif)  |
+![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif)  |
 
 
 ## 오픈소스
