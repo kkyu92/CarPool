@@ -49,7 +49,7 @@
 
 카풀요청 (탑승자)          |  카풀목록 (운전자)
 :-------------------------:|:-------------------------: 
-![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif)  |  ![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/stream.gif)
+![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif)  |  ![Smartphones](https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif)
 
  채팅          |  
 :-------------------------:|
@@ -68,4 +68,3 @@
 
  
 ## 참고사항
- 
