@@ -40,28 +40,21 @@
 - google-map
 - Tmap
 
-
 ## 핵심기능
+#### 소셜로그인
 
- 소셜로그인          |  
-:-------------------------:|
-<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>  |
+#### 카풀요청 (탑승자)
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>
 
-카풀요청 (탑승자)          |  카풀목록 (운전자)
-:-------------------------:|:-------------------------: 
-<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>  |  <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>
+#### 운행경로 (운전자)
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/driverRouteSet.gif" height="550"></img>
+#### 카풀목록 (운전자)
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/driverCarpoolList.gif" height="550"></img>
+#### 채팅
+#### 영상통화
+#### 위치공유 이동
+#### 결제 및 평가
 
- 채팅          	|  
-:-------------------------:|
-![Smartphones]  |
-
- 영상통화          |  
-:-------------------------:|
-![Smartphones]  |
-
- 운행기록 및 평점          |  
-:-------------------------:|:-------------------------:|
-<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>  |	1. 운행기록2.
 
 
 
