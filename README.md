@@ -112,7 +112,7 @@
 - - -
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/payRating.gif" height="550"></img>
 - 목적지에 도착하게 되면 결제알림과 버튼 생성
-- incis 사용
+- inicis 사용
 - 결제 후 상대방에 대한 평가  
 (카풀 매칭시 나오는 평점에 영향)
 
