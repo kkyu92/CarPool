@@ -54,6 +54,7 @@
 #### 영상통화
 #### 위치공유 이동
 #### 결제 및 평가
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/payRating.gif" height="550"></img>
 
 
 
