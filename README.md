@@ -51,23 +51,32 @@
 - [결제,평가](#결제,평가)
 
 
-#### 소셜로그인
+### 소셜로그인
+- - -
 
-#### 카풀요청-탑승자
+### 카풀요청-탑승자
+- - -
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/request.gif" height="550"></img>
 
-#### 운행경로-운전자
+### 운행경로-운전자
+- - -
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/driverRouteSet.gif" height="550"></img>
-#### 카풀목록-운전자
-<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/driverCarpoolList.gif" height="550"></img>
-#### 채팅
-#### 영상통화
-#### 위치공유 이동
 
+### 카풀목록-운전자
+- - -
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/driverCarpoolList.gif" height="550"></img>
+### 채팅
+- - -
+
+### 영상통화
+- - -
+
+### 위치공유 이동
+- - -
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/move.gif" height="550"></img>
 
-#### 결제,평가
-
+### 결제,평가
+- - -
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/payRating.gif" height="550"></img>
 
 
