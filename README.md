@@ -53,7 +53,11 @@
 #### 채팅
 #### 영상통화
 #### 위치공유 이동
+
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/move.gif" height="550"></img>
+
 #### 결제 및 평가
+
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/payRating.gif" height="550"></img>
 
 
