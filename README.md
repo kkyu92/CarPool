@@ -42,13 +42,13 @@
 
 ## 핵심기능
 - [소셜로그인](#소셜로그인)
-- [카풀요청 [탑승자]](#카풀요청 [탑승자])
-- [운행경로 [운전자]](#운행경로 [운전자])
+- [카풀요청](#카풀요청 [탑승자])
+- [운행경로 [운전자]](#운행경로)
 - [카풀목록 [운전자]](#카풀목록 [운전자])
 - [채팅](#채팅)
 - [영상통화](#영상통화)
-- [위치공유 이동](#위치공유 이동)
-- [결제 및 평가](#결제 및 평가)
+- [위치공유](#위치공유)
+- [결제,평가](#결제,평가)
 
 
 #### 소셜로그인
@@ -66,7 +66,7 @@
 
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/move.gif" height="550"></img>
 
-#### 결제 및 평가
+#### 결제,평가
 
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/payRating.gif" height="550"></img>
 
