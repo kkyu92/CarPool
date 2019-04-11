@@ -54,7 +54,7 @@
 
 ### 소셜로그인
 - - -
-
+<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/login.gif" height="550"></img>
 - Facebook
 - Google
 - Kakao
