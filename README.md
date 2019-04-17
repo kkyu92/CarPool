@@ -95,8 +95,8 @@
 - - -
 ### 영상통화
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/faceCall.gif"></img>
-- 영상통화가 왔을 때 팝업이 뜨면서 수락과 거절을 할 수 있다
-- 거절시 거절 메시지 알림
+- 영상통화 수락 거절
+- 거절 메시지 알림
 
 - - -
 ### 위치공유 이동
