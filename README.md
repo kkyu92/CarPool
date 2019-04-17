@@ -90,10 +90,11 @@
 <img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/chat.gif" height="550"></img>
 - 카풀 매칭이 완료된 운전자와 탑승자는 채팅이 가능
 - 채팅방 이외의 화면일 때 알림 팝업을 통해 채팅 확인 가능
+- 앱을 종료시켜도 팝업 알림이 오고 채팅방으로 이동할 수 있다
 
 - - -
 ### 영상통화
-<img src="https://raw.githubusercontent.com/kkyu92/CarPool/master/app/src/main/res/gif/faceCall.gif" height="550"></img>
+<iframe src='//gifs.com/embed/qewqqw323224-vl8jQL' frameborder='0' scrolling='no' width='1280px' height='960px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 - 영상통화가 왔을 때 팝업이 뜨면서 수락과 거절을 할 수 있다
 - 거절시 거절 메시지 알림
 
